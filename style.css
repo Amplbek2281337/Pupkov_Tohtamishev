@@ -1,0 +1,125 @@
+
+#menu {
+    display: flex;
+}
+
+#menu a {
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding: 10px 25px;
+    font: 16px Arial;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #16A177;
+    background-color: #16A177;
+}
+
+#menu1 a:hover,
+#menu a.blog {
+    color: #16A177;
+    border: 1px solid #16A177;
+    background-color: #F5F6FA;
+}
+
+#menu1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#menu1 a {
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    font: 16px Arial;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #16A177;
+    background-color: #16A177;
+}
+
+#menu1 a:hover
+#menu1 a.blog {
+    color: #16A177;
+    background-color: white;
+    border: 1px solid #16A177;
+}
+
+#menu1 a:hover,
+#menu a.blog {
+    color: #16A177;
+    border: 1px solid #16A177;
+    background-color: #F5F6FA;
+}
+
+#menu2 {
+    display: flex;
+    width: auto;
+}
+
+#menu2 a {
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    font: 16px Arial;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #16A177;
+    background-color: #16A177;
+}
+
+#menu2 a:hover,
+#menu2 a.blog {
+    color: white;
+    background-color: rgb(49, 121, 65);
+    border: 1px solid rgb(49, 121, 65);
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+} 
+
+.p241_1 {
+    width: 700px;
+    margin: 50px auto;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+.p241_1_1 {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #484848;
+}
+
+.p241_1_1 a {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    font: bold 14px Arial;
+    background-color: #484848;
+    border: #484848;
+    width: auto;
+}
+.p241_1 a:hover, .p241_1 a.active {
+    color: #484848;
+    background-color: #fff;
+}
+.p241_1_1 a.blog  {
+    color: #484848;
+    background-color: #fff;
+}
+.p241_1_2 h1 {
+    display: block;
+    unicode-bidi: isolate;
+    text-align: center; 
+}
+.p241_1_2 p {
+    padding: 0 10px;
+    margin-bottom: 5px;
+    font: 17px / 20px "Times New Roman";
+}
+.p241_1_2 a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
